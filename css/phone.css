@@ -1,0 +1,126 @@
+/* Navigation */
+
+#navbar {
+  flex-direction: column;
+}
+
+#navbar ul li a {
+  padding: 3px 13px;
+}
+
+#navbar .item {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Home Section */
+
+#home {
+  padding: 3px 148px;
+  height: 408px;
+}
+
+#home::before {
+  background: url(../img/mybg.jpg) left -227px bottom -35px / cover no-repeat;
+  height: 580px;
+  top: -50px;
+}
+
+#home h1 {
+  width: 209px;
+  color: white;
+  text-align: center;
+  font-family: "Bree Serif", serif;
+  padding-top: 35%;
+}
+
+#home p {
+  width: 293px;
+  font-size: 0.8rem;
+}
+
+/* Services Section */
+
+#services-container {
+  padding-top: 5px;
+}
+
+#services {
+  flex-direction: column;
+  margin: 5px;
+}
+
+#services .box {
+  padding: 15px;
+}
+
+#services .box img {
+  height: 75px;
+}
+
+#services .box p {
+  font-size: 0.7rem;
+}
+
+/* Client Section */
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.client-item {
+  padding: 19px 31px;
+}
+
+#clients img {
+  height: 60px;
+}
+
+/* Contact Us Section */
+
+#contact h1 {
+  padding-top: 20px;
+}
+
+#contact-box form {
+  width: 75%;
+}
+
+#contact-box label {
+  font-size: 0.9rem;
+}
+
+#contact-box input,
+#contact-box textarea {
+  padding: 0.3rem 0.4rem;
+  font-size: 0.9rem;
+}
+
+#contact-box .form-submit button {
+  font-size: 0.8rem;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.65rem;
+}
+
+/* Utility Classes */
+
+.h-primary {
+  font-size: 1.1rem;
+}
+
+.h-secondary {
+  font-size: 0.9rem;
+}
+
+.btn {
+  width: 106px;
+  padding: 4px 20px;
+  font-size: 0.8rem;
+}

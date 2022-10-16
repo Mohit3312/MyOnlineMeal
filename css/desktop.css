@@ -1,0 +1,64 @@
+/* CSS Variables */
+
+/* Navigation Bar */
+
+/* Navigation Bar: Logo and Image */
+
+/* Navigation Bar: List Styling */
+
+/* Home Section */
+
+#home {
+  height: 530px;
+}
+
+#home::before {
+  top: -50px;
+  background: url(../img/mybg.jpg) left bottom -35px / cover no-repeat;
+  height: 675px;
+}
+
+#home p {
+  font-size: 1.4rem;
+  width: 766px;
+}
+
+/* Services Section */
+
+#services-container h1 {
+  margin: -2px;
+}
+
+#services .box {
+  padding: 27px;
+}
+
+#services .box img {
+  height: 125px;
+}
+
+#services .box p {
+  font-size: 0.9rem;
+}
+
+/* Clients Section */
+
+/* Contact Section */
+
+/* Footer */
+
+/* Utility Classes */
+
+.h-primary {
+  font-size: 2rem;
+}
+
+.h-secondary {
+  font-size: 1.4rem;
+}
+
+.btn {
+  padding: 7px 7px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+}

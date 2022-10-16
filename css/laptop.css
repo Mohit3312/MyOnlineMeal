@@ -1,0 +1,121 @@
+/* CSS Variables */
+
+/* Navigation Bar */
+
+/* Navigation Bar: Logo and Image */
+
+#logo img {
+  height: 55px;
+  margin: 14px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+/* Home Section */
+
+#home {
+  height: 527px;
+}
+
+#home::before {
+  background: url(../img/mybg.jpg) left bottom -40px / cover no-repeat;
+  top: -50px;
+  height: 690px;
+}
+
+#home h1 {
+  padding-top: 12%;
+}
+
+#home p {
+  font-size: 1.2rem;
+  width: 656px;
+}
+
+/* Services Section */
+
+#services-container {
+  padding: 0px;
+}
+
+#services-container h1 {
+  margin: 10px;
+}
+
+#services {
+  margin: 10px 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#services .box {
+  margin: 15px 15px;
+  padding: 25px;
+  width: 235px;
+}
+
+#services .box img {
+  height: 125px;
+}
+
+#services .box p {
+  font-size: 0.95rem;
+}
+
+/* Clients Section */
+
+#clients img {
+  height: 70px;
+}
+
+/* Contact Section */
+
+#contact h1 {
+  padding-top: 20px;
+}
+
+#contact-box form {
+  width: 70%;
+}
+
+#contact-box label {
+  font-size: 1.1rem;
+}
+
+#contact-box input,
+#contact-box textarea {
+  padding: 0.3rem 0.4rem;
+  font-size: 1.1rem;
+  width: 98%;
+}
+
+#contact-box .form-submit button {
+  padding: 1px 5px;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Utility Classes */
+
+.h-primary {
+  font-size: 1.8rem;
+}
+
+.h-secondary {
+  font-size: 1.4rem;
+}
+
+.btn {
+  padding: 6px 8px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+}
